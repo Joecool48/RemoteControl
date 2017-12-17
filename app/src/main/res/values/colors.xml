@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3fb55e</color>
+    <color name="colorPrimaryDark">#ff4148</color>
+    <color name="colorAccent">#4797ff</color>
+    <color name="colorProjectName">#2546ff</color>
+    <color name="colorDeviceName">#ff1f41</color>
+    <color name="colorDeviceAddress">#00ff2a</color>
+    <color name="colorDeviceType">#2537ff</color>
+    <color name="Header">#000000</color>
+</resources>

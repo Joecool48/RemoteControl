@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item
+            android:id="@+id/nav_my_projects"
+            android:title="@string/my_projects" />
+        <item
+            android:id="@+id/nav_bluetooth"
+            android:title="@string/bluetooth" />
+        <item
+            android:id="@+id/nav_wifi"
+            android:title="@string/wifi" />
+        <item
+            android:id="@+id/nav_settings"
+            android:title="@string/settings" />
+        <item
+            android:id="@+id/nav_about"
+            android:title="@string/about"/>
+    </group>
+</menu>

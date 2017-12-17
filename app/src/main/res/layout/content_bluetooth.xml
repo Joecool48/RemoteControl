@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.joeyb.remotecontrol.Bluetooth">
+
+
+    <ToggleButton
+        android:id="@+id/EndBegin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOff="@string/begin"
+        android:textOn="@string/end"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="18dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="16dp" />
+
+    <Button
+        android:id="@+id/EnableDisableDiscovery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="buttonEnableDisableDiscoverable"
+        android:text= "@string/enable_discovery"
+        android:layout_alignBaseline="@+id/EndBegin"
+        android:layout_alignBottom="@+id/EndBegin"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:id="@+id/discover"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/discover"
+        android:layout_marginRight="16dp"
+        android:layout_alignBaseline="@+id/EnableDisableDiscovery"
+        android:layout_alignBottom="@+id/EnableDisableDiscovery"
+        android:onClick="btnDiscover"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/EndBegin"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp" />
+
+</RelativeLayout>
